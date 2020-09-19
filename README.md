@@ -29,3 +29,25 @@ backupPrivateKey(password).await()
 // reset private key backup
 resetPrivateKeyBackup().await()
 ```
+## Download
+
+Add the jitpack maven repository to your top level .gradle file:
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+```
+
+Now, add the dependeny to your application level .gradle file:
+```groovy
+dependencies {
+    ...
+    implementation 'com.sebastianmarschall:e3-ktx:1.0.0'
+}
+```
