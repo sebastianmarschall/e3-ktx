@@ -1,5 +1,7 @@
 # Kotlin extensions for Virgil EThree Kit
 
+[![](https://jitpack.io/v/com.sebastianmarschall/e3-ktx.svg)](https://jitpack.io/#com.sebastianmarschall/e3-ktx)
+
 ## EThree + Kotlin Coroutines
 
 Easily suspend EThree functions.
